@@ -1,0 +1,9 @@
+sql:
+  dialect: postgres
+  connectionString: postgresql://user:password@host:5432/db?sslmode=disable&client_encoding=UTF8
+  maxIdleConnections: 50
+  maxOpenConnections: 100
+  maxLifetimeSeconds: 50
+general:
+  address: localhost
+  port: 3000
